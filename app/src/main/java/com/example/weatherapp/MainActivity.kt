@@ -155,7 +155,7 @@ class MainActivity : AppCompatActivity() {
                         val rc = response.code()
                         when (rc) {
                             400 -> Log.e("Error", "Bad request")
-                            404 -> Log.e("Error", "Not found")
+
                         }
                     }
                 }
